@@ -1,3 +1,72 @@
 page-home {
+    ion-content  {
+        background-size: cover;
+        
+    }
+    
+    .start{
+        -webkit-box-shadow: 0 10px 30px 0 rgb(255, 255, 255);
+        box-shadow: 0 0px 30px 0  rgba(0, 17, 255, 0.342);
+        text-decoration: none;
+        display: inline-block;
+        text-transform: uppercase;
+        font-size: 40px;
+        transition: all 0.3s ease-in-out;
+        width: 80%;
+        height: 250px;
+        color: #ffffff;
+        border-radius: 100%
 
+    }
+
+    .menu{
+        -webkit-box-shadow: 0 10px 30px 0 rgb(255, 255, 255);
+        box-shadow: 0 0px 30px 0  rgba(0, 0, 0, 0.151);
+        background-color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 13px;
+        transition: all 0.3s ease-in-out;
+        width: 85%;
+        height: 50px;
+        color:  #0068B7;
+          
+        border-top-right-radius: 30px !important;
+        border-top-left-radius: 30px !important;
+        border-bottom-left-radius: 30px !important; 
+        border-bottom-right-radius: 30px !important;
+    }
+    table{
+        
+        background-color: #ffffff;
+        
+    }
+     h1{
+         font-size: 20px;
+     }
+    .avai-font{
+        
+        color: #ffffff;
+        position: relative;
+        text-align: center;
+        
+    }
+    .table-a{
+        -webkit-box-shadow: 0 10px 30px 0 rgb(255, 255, 255);
+        box-shadow: 0 10px 30px 0  rgba(0, 0, 0, 0.247);
+        position: relative;
+        text-align: center;
+        background-color: #ffffff;
+        
+       
+    }
+    .tableDate{
+        color: #1059f7;
+        background-color: #ffffff;
+        position: relative;
+        text-align: center;
+
+    }
 }
+
+

@@ -10,14 +10,36 @@ import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { LoginPage } from '../pages/login/login';
+import { RegisterPage } from '../pages/register/register';
+import { CountPage } from '../pages/count/count';
+import { QuizPage } from '../pages/quiz/quiz';
+import { ScorePage } from '../pages/score/score';
+import { FeedbackPage } from '../pages/feedback/feedback';
+import { RankPage } from '../pages/rank/rank';
+import { ResulthistPage } from '../pages/resulthist/resulthist';
+import { ResulthistpercPage } from '../pages/resulthistperc/resulthistperc';
 
+
+
+LoginPage
 @NgModule({
   declarations: [
     MyApp,
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    LoginPage,
+    RegisterPage,
+    CountPage,
+    QuizPage,
+    ScorePage,
+    FeedbackPage,
+    RankPage,
+    ResulthistPage,
+    ResulthistpercPage
+
   ],
   imports: [
     BrowserModule,
@@ -29,7 +51,16 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    LoginPage,
+    RegisterPage,
+    CountPage,
+    QuizPage,
+    ScorePage,
+    FeedbackPage,
+    RankPage,
+    ResulthistPage,
+    ResulthistpercPage
   ],
   providers: [
     StatusBar,

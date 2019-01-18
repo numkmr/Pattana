@@ -1,17 +1,53 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
-</ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic! kmr</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content style="background-image: url('assets/imgs/Login3.png')">
+
+  
+  
+  <ion-fab  right edge>
+    <button ion-fab mini><ion-icon name="add"></ion-icon></button>
+    <ion-fab-list>
+      <button ion-fab    (click)='clickhome()'><ion-icon name="ios-home"  ></ion-icon></button>
+      <button ion-fab    (click)='clickrank()' ><ion-icon name="md-star-outline"   ></ion-icon></button>
+      <button ion-fab    (click)='clickfeedback()'><ion-icon name="ios-list-box"  ></ion-icon></button>
+      <button ion-fab><ion-icon name="md-stats"></ion-icon></button>
+    </ion-fab-list>
+  </ion-fab>
+
+
+
+
+
+
+
+
+
+  <div class="avai-font" >
+    
+    <h1 ion-text color="light">Avaliable in</h1>
+    
+  </div>
+ 
+  <div  class="tableDate" ><br>
+    {{currentDate}}<br><br>
+  </div>
+  <br>
+ 
+ 
+    <div class="table-a" padding>
+      <br>
+    
+    <button color="blue" ion-button class="start" (click)='readytoquiz()'> START </button><br>
+    <br><br><br>
+    <button color="blank2"  ion-button class="menu"> Add new course </button>
+    <br>
+    <button color="blank2" ion-button class="menu"> Schedule </button>
+    <br>
+   
+    <br><br><br>
+  </div>
+
+
+
+
+
 </ion-content>

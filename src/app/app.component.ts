@@ -4,12 +4,23 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { TabsPage } from '../pages/tabs/tabs';
+import { LoginPage } from '../pages/login/login';
+import { RegisterPage } from '../pages/register/register';
+import { HomePage } from '../pages/home/home';
+import { CountPage } from '../pages/count/count';
+import { QuizPage } from '../pages/quiz/quiz';
+import { ScorePage } from '../pages/score/score';
+import { FeedbackPage } from '../pages/feedback/feedback';
+import { RankPage } from '../pages/rank/rank';
+import { ResulthistPage } from '../pages/resulthist/resulthist';
+import { ResulthistpercPage } from '../pages/resulthistperc/resulthistperc';
+
 
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = TabsPage;
+  rootPage:any = ResulthistpercPage;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
